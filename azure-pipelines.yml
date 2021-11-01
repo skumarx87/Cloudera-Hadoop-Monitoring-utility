@@ -8,7 +8,7 @@ trigger:
 
 pool:
   vmImage: ubuntu-latest
-
+environment: test_env
 steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
